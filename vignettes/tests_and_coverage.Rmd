@@ -1,0 +1,91 @@
+---
+title: "Tests and Coverage"
+date: "`r format(Sys.time(), '%d %B, %Y %H:%M:%S')`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Tests and Coverage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+  
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  eval = FALSE
+)
+```
+
+<!--- Placeholder for tests/README.md Do Not Edit--->
+-   <a href="#coverage" id="toc-coverage">Coverage</a>
+-   <a href="#unit-tests" id="toc-unit-tests">Unit Tests</a>
+
+This output is created by
+[covrpage](https://github.com/yonicd/covrpage).
+
+## Coverage
+
+Coverage summary is created using the
+[covr](https://github.com/r-lib/covr) package.
+
+| Object                                        | Coverage (%) |
+|:----------------------------------------------|:------------:|
+| demoProject1                                  |     100      |
+| [R/stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/R/stats_utilities.R) |     100      |
+
+<br>
+
+## Unit Tests
+
+Unit Test summary is created using the
+[testthat](https://github.com/r-lib/testthat) package.
+
+| file                                                      |   n | time | error | failed | skipped | warning |
+|:----------------------------------------------------------|----:|-----:|------:|-------:|--------:|--------:|
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R) |  21 | 0.16 |     0 |      0 |       0 |       0 |
+
+<details closed>
+<summary>
+Show Detailed Test Results
+</summary>
+
+| file                                                          | context         | test                                                          | status |   n | time |
+|:--------------------------------------------------------------|:----------------|:--------------------------------------------------------------|:-------|----:|-----:|
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R#L10) | stats_utilities | add_ci computes correct confidence intervals                  | PASS   |   3 | 0.01 |
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R#L17) | stats_utilities | stopifnot_with_message does not error when condition is TRUE  | PASS   |   1 | 0.02 |
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R#L21) | stats_utilities | stopifnot_with_message errors when condition is FALSE         | PASS   |   1 | 0.00 |
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R#L31) | stats_utilities | load_data loads a CSV file                                    | PASS   |   2 | 0.02 |
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R#L40) | stats_utilities | load_data errors when file does not exist                     | PASS   |   1 | 0.00 |
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R#L46) | stats_utilities | assert_is_valid_data_frame passes for a valid data frame      | PASS   |   1 | 0.00 |
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R#L50) | stats_utilities | assert_is_valid_data_frame errors for NULL                    | PASS   |   1 | 0.02 |
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R#L54) | stats_utilities | assert_is_valid_data_frame errors for non-data.frame          | PASS   |   1 | 0.02 |
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R#L59) | stats_utilities | assert_is_valid_parameter passes for a valid parameter        | PASS   |   1 | 0.00 |
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R#L63) | stats_utilities | assert_is_valid_parameter errors for non-character            | PASS   |   1 | 0.01 |
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R#L67) | stats_utilities | assert_is_valid_parameter errors for NA                       | PASS   |   1 | 0.02 |
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R#L73) | stats_utilities | assert_dataframe_has_column passes when column exists         | PASS   |   1 | 0.00 |
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R#L78) | stats_utilities | assert_dataframe_has_column errors when column does not exist | PASS   |   1 | 0.00 |
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R#L85) | stats_utilities | filter_complete returns rows with non-NA values               | PASS   |   2 | 0.02 |
+| [test-stats_utilities.R](https://github.com/fpahlke/demoProject1/blob/HEAD/tests/testthat/test-stats_utilities.R#L96) | stats_utilities | summarise_parameter computes correct mean and sd              | PASS   |   3 | 0.02 |
+
+</details>
+<details>
+<summary>
+Session Info
+</summary>
+
+| Field    | Value                             |
+|:---------|:----------------------------------|
+| Version  | R version 4.5.1 (2025-06-13 ucrt) |
+| Platform | x86_64-w64-mingw32/x64            |
+| Running  | Windows 11 x64 (build 26100)      |
+| Language | German_Germany                    |
+| Timezone | Europe/Berlin                     |
+
+| Package  | Version |
+|:---------|:--------|
+| testthat | 3.2.3   |
+| covr     | 3.6.4   |
+| covrpage | 0.2     |
+
+</details>
+<!--- Final Status : pass --->

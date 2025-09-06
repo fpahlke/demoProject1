@@ -1,0 +1,45 @@
+---
+title: "Report"
+author: "Friedrich Pahlke"
+date: "`r format(Sys.time(), '%d %B, %Y %H:%M:%S')`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Report}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+  
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  eval = TRUE
+)
+```
+
+## Load Data
+  
+```{r report}
+data <- load_data(system.file("extdata", "data.csv", package = "demoProject1"))
+data |>
+    head() |>
+    knitr::kable()
+```
+
+## Summarise Data
+  
+```{r summary_age}
+data_clean <- filter_complete(data, "age")
+summarise_parameter(data_clean, "age")
+```
+  
+```{r summary_bmi}
+summarise_parameter(data_clean, "bmi")
+```
+
+
+## Add Session Info
+
+```{r session_info}
+sessionInfo()
+```
