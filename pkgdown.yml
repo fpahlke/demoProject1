@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   report: report.html
   tests_and_coverage: tests_and_coverage.html
-last_built: 2025-09-06T07:38Z
+last_built: 2025-09-06T07:49Z
 urls:
-  reference: https://fpahlke.github.io/good-engineering-workshop-demo/reference
-  article: https://fpahlke.github.io/good-engineering-workshop-demo/articles
+  reference: https://fpahlke.github.io/demoProject1/reference
+  article: https://fpahlke.github.io/demoProject1/articles

@@ -1,19 +1,19 @@
 <urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/404.html</loc></url>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/LICENSE-text.html</loc></url>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/articles/index.html</loc></url>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/articles/report.html</loc></url>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/articles/tests_and_coverage.html</loc></url>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/authors.html</loc></url>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/index.html</loc></url>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/reference/add_ci.html</loc></url>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/reference/assert_dataframe_has_column.html</loc></url>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/reference/assert_is_valid_data_frame.html</loc></url>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/reference/assert_is_valid_parameter.html</loc></url>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/reference/filter_complete.html</loc></url>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/reference/index.html</loc></url>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/reference/load_data.html</loc></url>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/reference/stopifnot_with_message.html</loc></url>
-<url><loc>https://fpahlke.github.io/good-engineering-workshop-demo/reference/summarise_parameter.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/404.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/LICENSE-text.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/articles/index.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/articles/report.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/articles/tests_and_coverage.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/authors.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/index.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/reference/add_ci.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/reference/assert_dataframe_has_column.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/reference/assert_is_valid_data_frame.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/reference/assert_is_valid_parameter.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/reference/filter_complete.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/reference/index.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/reference/load_data.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/reference/stopifnot_with_message.html</loc></url>
+<url><loc>https://fpahlke.github.io/demoProject1/reference/summarise_parameter.html</loc></url>
 </urlset>
 
